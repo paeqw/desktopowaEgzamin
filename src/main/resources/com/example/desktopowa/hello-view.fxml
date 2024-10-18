@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="772.0" style="-fx-background-color: #2E8B57;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.desktopowa.HelloController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="162.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@obraz.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="bandLabel" layoutX="348.0" layoutY="30.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="titleLabel" layoutX="348.0" layoutY="105.0" style="-fx-font-style: italic;" text="Label" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="leftButton" layoutX="14.0" layoutY="170.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="96.0" />
+      <Button fx:id="rightButton" layoutX="662.0" layoutY="170.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="96.0" />
+      <Label fx:id="countLabel" layoutX="348.0" layoutY="162.0" text="Label" textFill="#61d918">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="yearLabel" layoutX="474.0" layoutY="162.0" text="Label" textFill="#61d918">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="downloadCountLabel" layoutX="126.0" layoutY="261.0" text="Label" textFill="#61d918">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Button fx:id="downloadButton" layoutX="237.0" layoutY="254.0" mnemonicParsing="false" style="-fx-background-color: #61d918; -fx-font-weight: bold;" text="Pobierz">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+   </children>
+</Pane>
